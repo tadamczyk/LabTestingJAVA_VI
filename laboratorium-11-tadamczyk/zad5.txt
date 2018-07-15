@@ -1,0 +1,8 @@
+driver.navigate().refresh(); =>
+
+1. driver.navigate().to(driver.getCurrentUrl());
+2. driver.get(driver.getCurrentUrl());
+3. driver.findElement(By.xpath("//body")).sendKeys(Keys.F5);
+4. driver.findElement(By.xpath("//body")).sendKeys("\uE035");
+5. Actions actions = new Actions(driver); 
+   actions.keyDown(Keys.CONTROL).sendKeys(Keys.F5).perform();

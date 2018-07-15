@@ -1,0 +1,3 @@
+mvn archetype:generate
+mvn clean package
+java -cp target/lab5-lab5.jar lab5.App
